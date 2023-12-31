@@ -1,0 +1,785 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+
+
+/* nav */
+.navber {
+    display: block;
+    margin: 0px auto;
+
+}
+
+.navber nav {
+    display: flex;
+    margin: 10px 110px;
+}
+
+.navber nav img {
+    width: 120px;
+    margin-right: 20px;
+    height: 40px;
+}
+
+.navber nav .main {
+
+    width: 47rem;
+    height: 50px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+
+}
+
+.navber nav .main i {
+    font-size: 35px;
+    margin: 0px 5px
+}
+
+.navber nav .main .input1 {
+    border: hidden;
+    text-transform: capitalize;
+    font-weight: 600;
+
+    font-size: 14px;
+}
+
+.navber nav .main i.ri-arrow-down-s-fill {
+    font-size: 28px;
+    line-height: 45px;
+
+    color: #393636;
+}
+
+.navber nav .main .line {
+    border: 1px solid #CFCFCF;
+    height: 25px;
+    margin-top: 11px;
+
+}
+
+.navber nav .main .ri-search-line {
+    font-size: 25px;
+    color: #CFCFCF;
+    margin-top: 11px;
+
+}
+
+.navber nav .main .input2 {
+    border: hidden;
+    text-transform: capitalize;
+    font-weight: 600;
+    width: 475px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.navber nav ul {
+    list-style: none;
+    display: flex;
+    padding: 13px;
+    margin-left: 55px;
+
+}
+
+.navber nav ul li {
+    margin: 0px 10px;
+}
+
+.navber nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(105, 105, 105);
+    font-weight: 300;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.navber .container {
+    width: 710px;
+    height: 135px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.navber .container .item {
+    width: 33.33%;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(105, 105, 105);
+
+}
+
+.navber .container .item .img img {
+    width: 30px;
+}
+
+.navber .container .item .img {
+    border: 1px solid;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #FCEEC0;
+}
+
+.navber .container .item h1 {
+    font-size: 30px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.navber .container .item2 .img {
+    background-color: #F8F8F8;
+}
+
+.navber .container .item2 h1 {
+    font-size: 25px;
+}
+
+.navber .container .item3 .img {
+    background-color: #F8F8F8;
+}
+
+.navber .container .item1 {
+    border-bottom: 1px solid #F16371;
+}
+
+
+
+.navber .container .item1 h1 {
+    color: #F16371;
+
+}
+
+.navber .information {
+    width: 100%;
+    height: 100px;
+    border-top: 0.8px solid #AFAFAF;
+    display: flex;
+    align-items: center;
+    position: sticky;
+
+}
+
+.navber .information .add {
+    width: 100px;
+    /* height: 45px; */
+    border: 1px solid #AFAFAF;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 100px;
+
+
+}
+
+.navber .information .add1 i {
+    font-size: 15px;
+    margin-right: 8px;
+    color: #AFAFAF;
+
+}
+
+.navber .information .add p {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #AFAFAF;
+}
+
+.navber .information .add2 {
+    margin-left: 15px;
+}
+
+.navber .information .add3 {
+    margin-left: 15px;
+}
+
+.navber .information .add4 {
+    margin-left: 15px;
+}
+
+header .food {
+    width: 100%;
+    height: 350px;
+    background-color: #F8F8F8;
+
+    padding: 0px 85px;
+
+}
+
+header .food h3 {
+    font-size: 27px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-top: 15px;
+    color: #1C1C1C;
+
+}
+
+header .food .food-container {
+    width: 100%;
+    height: 220px;
+    margin: 18px 0px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header .food .food-container .item {
+
+    width: 16.66%;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+header .food .food-container .item img {
+    width: 145px;
+    border-radius: 75px;
+}
+
+header .food .food-container .item h1 {
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #1C1C1C;
+}
+
+header .food .food-container .icon {
+    width: 25px;
+    height: 25px;
+    transform: translatex(-10px);
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header .food .food-container .icon i {
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .food .food-container .icon1 {
+    width: 25px;
+    height: 25px;
+    transform: translatex(-10px);
+
+    position: absolute;
+    right: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+header .food .food-container .icon1 i {
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* brand */
+header .brand {
+    width: 100%;
+    height: 300px;
+    margin-top: 55px;
+
+
+    padding: 0px 85px;
+
+}
+
+header .brand h3 {
+    font-size: 27px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-top: 15px;
+    color: #1C1C1C;
+
+}
+
+header .brand .brand-container {
+    width: 100%;
+    height: 220px;
+    margin: 18px 0px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    gap: 16px;
+    
+}
+
+header .brand .brand-container .item {
+
+    width: 16.66%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+header .brand .brand-container .item a {
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+}
+
+
+
+
+
+header .brand .brand-container .item img {
+    width: 100px;
+    border-radius: 75px;
+}
+
+header .brand .brand-container .item h1 {
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #1C1C1C;
+}
+
+
+
+header .brand .brand-container .icon {
+    width: 25px;
+    height: 25px;
+    transform: translatex(-10px);
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .brand .brand-container .icon i {
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .brand .brand-container .icon1 {
+    width: 25px;
+    height: 25px;
+    transform: translatex(-10px);
+
+    position: absolute;
+    right: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+header .brand .brand-container .icon1 i {
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .home {
+    width: 100%;
+   
+    
+}
+header .home h1{
+    font-size: 27px;
+text-transform: capitalize;
+font-weight: 300;
+padding-top: 15px;
+color: #1C1C1C;
+margin: 24px 80px;
+}
+header .home h1 span{
+    text-transform: uppercase;
+}
+header .home .home1{
+    width: 90%;
+    height: 400px;
+    
+    display: flex;
+    margin: 0% auto;
+    justify-content:space-evenly;
+}
+header .home .home1 .food{
+    width: 28%;
+    border-color: rgb(255, 255, 255);
+   
+    margin: auto 0px;
+    border-radius: 20px;
+    height: 375px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+header .home .home1 .food:hover{
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 8px 18px;
+    border: 1px solid rgb(232, 232, 232);
+}
+header .home .home1 .food img{
+    width: 338px;
+position: relative;
+left: -85px;
+height: 293px;
+border-radius: 20px;
+}
+header .home .home1 .food .contant{
+    
+width: 338px;
+margin-left: -85px;
+height: 75px;
+border-radius: 0px 0px 20px 20px;
+padding: 5px;
+}
+header .home .home1 .food .contant h3{
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 7px;
+      
+
+}
+header .home .home1 .food .contant h3  span{
+        text-transform: uppercase;
+       }
+header .home .home1 .food .contant p{
+    color: #AFAFAF;
+
+}
+header .home .home1 .food .contant p span{
+    margin-left: 65px;
+
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.gallery-item{
+    scroll-snap-align: center;
+    min-width: 75%;
+}
+.gallery .gallery-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-accordian{
+
+    background-color:#FCFCFC;
+    padding: 50px;
+    line-height: 1.6rem;
+}
+h2{
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color:#363636;
+  }
+  .UMpfX {
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: rgb(130, 130, 130);
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 0.35rem;
+}
+.iDxEOF {
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-right: 1rem;
+}
+.jgITQK {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    margin-bottom: 1.2rem;
+    width: 20%;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+  .accordian{
+background-color:white;
+padding: 4px 16px;
+margin-bottom: 20px;
+box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+cursor: pointer;
+}
+.question{
+display: flex;
+align-items: center;
+justify-content: space-between;
+line-height: 20px;
+font-size: 28px;
+    height: 60px;
+color:#363636;
+font-weight: 300;
+
+}
+.question i{
+font-size: 20px;
+cursor: pointer;
+padding-right: 20px;
+transition: transform 0.2s;
+}
+.answer{
+color: #666;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s;
+
+}
+
+.icone.active{
+transform: rotatex(-180deg);
+}
+/* footer */
+
+footer{
+    
+    width: 100%;
+    height: 500px;
+    
+    background-color:#F8F8F8;
+}
+footer .container{
+    border-bottom: 1px solid #CFCFCF;
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+}
+footer .container .item{
+    
+    width: 100%;
+}
+footer .container #item1{
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+footer .container #item2{
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+}
+footer .container #item1 img{
+    width: 170px;
+}
+.option{
+    margin-right: 20px;
+}
+select#country {
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    margin: 0px 10px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 3px;
+    
+    border: 1px solid rgb(232, 232, 232);
+}
+select#languege {
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    margin: 0px 10px;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 3px;
+}
+.item2{
+    
+    height: 300px;
+    width: 300px;
+}
+.iFsnCv {
+    text-decoration: none;
+}
+h6 {
+    font-size: 17px;
+    line-height: 29px;
+    text-transform: uppercase;
+    font-weight: 300;
+    cursor: default;
+    color:black;
+}
+p.sc-elhb8j-16.dxcfRo {
+    color: #363636;
+    line-height: 21px;
+    font-size: 17px;
+    font-weight: 100;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    margin: 0px 5px;
+}
+a.sc-elhb8j-17.iDzUMo {
+    width: 25px;
+}
+img.sc-s1isp7-5.fyZwWD {
+    width: 135px;
+    margin-bottom: 10px;
+}
+footer p{
+    
+        font-size: 15px;
+        margin-top: 10px;
+    
+}
+@media  screen and ( max-width:1200px) and (min-width:767px){
+    .navber nav ul {
+        margin-top: -10px;
+        margin-left: 0px;
+        width: 18vw;
+    }
+    .navber nav ul li a{
+        font-size: 2vw;
+    }
+    .navber nav .main{
+        width: 31rem;
+    }
+    .navber nav .main .input2{
+        width: 22vw;
+    }
+    .navber nav .main .input1{
+        width: 22vw;
+    }
+    .navber nav img{
+        width: 12vw;
+        
+    }
+    .navber .container{
+        width:90% ;
+    }
+    .navber .container .item .img{
+        width: 8vw;
+        height: 8vw;
+    }
+    .navber .container .item h1{
+        font-size:3vw ;
+    }
+    .navber .container .item{
+        width: 31.33%;
+    }
+  
+
+    header .food h3 {
+        font-size: 3vw;
+    }
+     header .home .home1 .food img {
+        width: 26vw;
+        height: 26vw;
+     }
+     header .home .home1 .food .contant {
+        width: 26vw;
+     }
+     header .home .home1 .food .contant h3 {
+        font-size: 1.5vw;
+     }
+     header .home .home1 .food .contant p{
+        font-size: 1vw;
+     }
+     header .food .food-container .item img {
+        width: 12vw;
+     }
+     header .food .food-container .item h1{
+        font-size: 3vw;
+     }
+     header .brand .brand-container .item h1 {
+        font-size: 14px;
+    }
+    header .brand .brand-container .item a {
+        width: 13vw;
+        height :13vw;
+    }
+   
+     header .brand .brand-container .item img{
+        width: 9vw;
+     }
+     h2{
+        font-size: 3.4vw;
+     }
+     .question{
+        font-size: 3vw;
+     }
+     h6{
+        font-size: 1.5vw;
+     }
+     p.sc-elhb8j-16.dxcfRo{
+        font-size: 1.4vw;
+     }
+     footer p{
+        font-size: 1.7vw;
+     }
+
+    
+}
+@media  screen and ( max-width:766px) and (min-width:270px){
+    body{
+        display: none;
+    }
+}
